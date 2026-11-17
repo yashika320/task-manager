@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; background: #f2f4f8; margin: 0; padding: 20px; }
+.app { max-width: 600px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+h1 { text-align: center; color: #1F3A5F; }
+#task-form { display: flex; gap: 8px; flex-wrap: wrap; }
+#task-input { flex: 1; min-width: 150px; }
+input, select, button { padding: 8px; font-size: 14px; }
+button { cursor: pointer; border: none; border-radius: 6px; background: #1F3A5F; color: #fff; }
+.filters { margin: 15px 0 5px; display: flex; gap: 8px; }
+.filters button { background: #dfe5ee; color: #333; }
+.filters button.active { background: #1F3A5F; color: #fff; }
+ul { list-style: none; padding: 0; }
+li { display: flex; align-items: center; gap: 8px; padding: 10px; border-bottom: 1px solid #eee; }
+li .text { flex: 1; }
+li.done .text { text-decoration: line-through; color: #888; }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 10px; color: #fff; }
+.High { background: #d9534f; } .Medium { background: #f0ad4e; } .Low { background: #5cb85c; }
+.small { font-size: 12px; padding: 4px 8px; }
+.delete { background: #d9534f; }
